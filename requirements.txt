@@ -1,0 +1,7 @@
+pytest_playwright
+playwright
+pytest
+pytest-html
+pytest-xdist
+requests
+logging

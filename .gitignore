@@ -1,0 +1,6 @@
+# ignore python cache folders
+**/__pycache__/
+*.py[cod]
+my_playwright/
+logs/
+.my_playwright
