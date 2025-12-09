@@ -1,4 +1,5 @@
 import requests
+from utils.logger import logger
 
 class APIclient:
     @staticmethod
@@ -8,4 +9,5 @@ class APIclient:
         response = requests.delete(url, data=data)
         # raise on error so failures are visible
         response.raise_for_status()
+        logger.info(f"successfully deleted user: {email}")
         return response

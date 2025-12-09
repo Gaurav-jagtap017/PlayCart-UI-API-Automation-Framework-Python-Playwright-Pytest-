@@ -4,3 +4,5 @@
 my_playwright/
 logs/
 .my_playwright
+.venv
+.idea

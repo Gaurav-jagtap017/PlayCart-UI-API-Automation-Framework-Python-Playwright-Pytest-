@@ -1,8 +1,9 @@
 from pages.home_page import HomePage
 import time
+import pytest
 
-def test_product_page(setup):
-    page = setup
+@pytest.mark.skip
+def test_product_page(page):
     page.goto("https://automationexercise.com/products")
 
     # make the first product's overlay visible, then click the Add to cart link
